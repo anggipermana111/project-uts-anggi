@@ -238,7 +238,7 @@ export default function Home() {
           ))}
         <Button
           onClick={() => setPage(page + 1)}
-          disabled={page === Math.ceil(filteredSortedProducts.length / 4)}
+          disabled={page === Math.ceil(filteredSortedProducts.length / countPage)}
         >
           Berikutnya
         </Button>
