@@ -281,6 +281,17 @@ export default function Home() {
               }
             />
           </label>
+          <label>
+            Url Gambar
+            <input
+              type="text"
+              value={editedProduct.image}
+              onChange={(e) =>
+                setEditedProduct({ ...editedProduct, image: e.target.value })
+              }
+              required
+            />
+          </label>
           <select onChange={(e) => {
             setEditedProduct({
               ...editedProduct,
