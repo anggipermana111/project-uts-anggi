@@ -110,7 +110,7 @@ export default function Home() {
   const [carts,setCarts] = useState([])
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [category,setCategory] = useState("")
-  const [countPage,setCountPage] = useState(4);
+  const [countPage,setCountPage] = useState(3);
 
   const filteredSortedProducts = products
     .toSorted((a, b) => {
